@@ -32,3 +32,11 @@ Ik vond de pijltjes die ik had gemaakt in de css wel leuk, maar wilde eigenlijk 
 
 ## stap 4: Interactie met Javascript
 
+De Javascript stap vond ik een moeilijke stap. Ik vond het in leerjaar 1 ook vrij lastig. Dit was een drempel waar ik overheen moest om gewoon te gaan beginnen. Ik wist nog hoe ik vars moest aanmaken en oproepen dus dat was al een begin. Sanne heeft geholpen met de "querySelectorAll" tag, waardoor ik in een keer alle li buttons kon aanroepen om te gebruiken. Deze tag kende ik nog niet dus dat was fijn!
+
+Door middel van de sortable plugin heb ik de unordered list (de playlist) drop & drag proof gemaakt. https://github.com/SortableJS/Sortable
+Eigenlijk was dit wat ik in het begin al heel graag wilde. Maar nu werkten mijn pijltjes nog steeds niet. Dat was de volgende uitdaging.
+Ik wist eigenlijk niet waar ik beginnen moest. Sanne kwam er bij zitten was heel behulpzaam. Hij gaf een indicatie van wat ik kon typen, vroeg of ik begreep wat ik typte en wat er dan zou gebeuren. Dit proces hebben we een aantal keer doorlopen en zo ben ik tot mijn clickable pijltjes gekomen.
+Ik had nog nooit gebruik gemaakt van "parentNode" maar na een uitleg van Sanne begrijp ik nu wat dat betekend/doet. Hetzelfde verhaal voor previousElementSibling. Door het te vergelijken met een stamboom (vandaar mijn opa/broertje comments in de js) begreep ik makkelijker wat er gebeurde in de javascript.
+
+Als laatste was dan de uitdaging om de bovenste knop te disabelen als het liedje al helemaal bovenaan staat. 
