@@ -6,5 +6,5 @@ Ik heb gekozen voor de usecase "In een verzameling muzieknummers wil ik de volgo
 
 Eerst ben ik begonnen met een schets te maken van hoe ik dit voor me zou zien in een browser. Ik kwam al snel met het idee dat ik een playlist item wilde drag en droppen maar kreeg het advies om eerst met pijltjes te beginnen. 
 
-![Interacties schets](../img/schetsInteractie "Interactie schets")
+![Interacties schets](img/schetsInteractie.jpg "Interactie schets")
 
