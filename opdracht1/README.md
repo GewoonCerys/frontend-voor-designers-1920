@@ -16,7 +16,7 @@ Ik vond het wel weer wennen om html te gebruiken en had even de tijd nodig om de
 
 ![Playlist versie 01](img/versie01Playlist.png "Basis html")
 
-De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijderd toen ik begon met stijlen. Ik had in CSS met behulp van de website (https://css-tricks.com/the-shapes-of-css/ "css-tricks") pijlen gemaakt die ik kon gebruiken om de muzieknummers naar boven en/of naar beneden te verplaatsen.
+De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijderd toen ik begon met stijlen. Ik had in CSS met behulp van de website https://css-tricks.com/the-shapes-of-css/ "css-tricks" pijlen gemaakt die ik kon gebruiken om de muzieknummers naar boven en/of naar beneden te verplaatsen.
 
 ![Playlist versie 02](img/versie02Playlist.png "Interactie schets")
 
