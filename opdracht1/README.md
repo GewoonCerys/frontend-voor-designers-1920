@@ -16,8 +16,15 @@ Ik vond het wel weer wennen om html te gebruiken en had even de tijd nodig om de
 
 ![Playlist versie 01](img/versie01Playlist.png "Basis html")
 
-De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijderd toen ik begon met stijlen. Ik had in CSS met behulp van de website https://css-tricks.com/the-shapes-of-css/ "css-tricks" pijlen gemaakt die ik kon gebruiken om de muzieknummers naar boven en/of naar beneden te verplaatsen.
+De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijderd toen ik begon met stijlen. Ik had in css met behulp van de website https://css-tricks.com/the-shapes-of-css/ pijlen gemaakt die ik kon gebruiken om de muzieknummers naar boven en/of naar beneden te verplaatsen.
 
-![Playlist versie 02](img/versie02Playlist.png "Interactie schets")
+![Playlist versie 02](img/versie02Playlist.png "pijlen css")
+
+## stap 3: Vormgeven met css
+
+Nu was ik echt klaar om te beginnen met de css. Ik heb een font-family toegevoegd, heb de kleuren gebruikt die Spotify ook gebruikt en er zijn nu verschillende liedjes te zien in plaats van alleen Ariana Grande. De grote rode pijltjes heb ik kleiner gemaakt, in het playlist item gezet en van kleur veranderd. 
+
+![Playlist versie 03](img/versie03Playlist.png "versie 1 vormgeving")
+
 
 
