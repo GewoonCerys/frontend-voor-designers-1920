@@ -49,6 +49,6 @@ Als laatste heb ik nog mijn pijltjes veranderd want die waren niet te zien. Het 
 ## Final result
 
 ![Playlist versie 06](img/versie06Playlist.png "versie 6 vormgeving")
-![Playlist versie 06](img/versie06pt2Playlist.png "versie 6pt2 vormgeving")
+![Playlist versie 06 part 2](img/versie06Playlistpt2.png "versie 6pt2 vormgeving")
 
 Drag en drop/volgorde klikken screenshotten was wat lastig, maar ik heb hier iniedergeval twee screenshots met een andere volgorde om te laten zien hoe het zou werken. 
