@@ -1,4 +1,4 @@
-# H1 Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
+# Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
 
 Ik heb gekozen voor de usecase "In een verzameling muzieknummers wil ik de volgorde kunnen veranderen om een playlist te maken voor een feest."
 
