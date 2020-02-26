@@ -24,11 +24,11 @@ De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijd
 
 Nu was ik echt klaar om te beginnen met de css. Ik heb een font-family toegevoegd, heb de kleuren gebruikt die Spotify ook gebruikt en er zijn nu verschillende liedjes te zien in plaats van alleen Ariana Grande. De grote rode pijltjes heb ik kleiner gemaakt, in het playlist item gezet en van kleur veranderd. 
 
-![Playlist versie 03](img/versie03Playlist.png "versie 1 vormgeving")
+![Playlist versie 03](img/versie03Playlist.png "versie 3 vormgeving")
 
 Ik vond de pijltjes die ik had gemaakt in de css wel leuk, maar wilde eigenlijk gebruik maken van html symbols. Dit had ik nog niet eerder gedaan, dus de website van https://www.toptal.com/designers/htmlarrows/ was heel handig en gemakkelijk te gebruiken. 
 
-![Playlist versie 04](img/versie04Playlist.png "versie 2 vormgeving")
+![Playlist versie 04](img/versie04Playlist.png "versie 4 vormgeving")
 
 ## stap 4: Interactie met Javascript
 
@@ -37,6 +37,18 @@ De Javascript stap vond ik een moeilijke stap. Ik vond het in leerjaar 1 ook vri
 Door middel van de sortable plugin heb ik de unordered list (de playlist) drop & drag proof gemaakt. https://github.com/SortableJS/Sortable
 Eigenlijk was dit wat ik in het begin al heel graag wilde. Maar nu werkten mijn pijltjes nog steeds niet. Dat was de volgende uitdaging.
 Ik wist eigenlijk niet waar ik beginnen moest. Sanne kwam er bij zitten was heel behulpzaam. Hij gaf een indicatie van wat ik kon typen, vroeg of ik begreep wat ik typte en wat er dan zou gebeuren. Dit proces hebben we een aantal keer doorlopen en zo ben ik tot mijn clickable pijltjes gekomen.
-Ik had nog nooit gebruik gemaakt van "parentNode" maar na een uitleg van Sanne begrijp ik nu wat dat betekend/doet. Hetzelfde verhaal voor previousElementSibling. Door het te vergelijken met een stamboom (vandaar mijn opa/broertje comments in de js) begreep ik makkelijker wat er gebeurde in de javascript.
+Ik had nog nooit gebruik gemaakt van "parentNode" maar na een uitleg van Sanne begrijp ik nu wat dat betekent/doet. Hetzelfde verhaal voor previousElementSibling. Door het te vergelijken met een stamboom (vandaar mijn opa/broertje comments in de js) begreep ik makkelijker wat er gebeurde in de javascript.
 
-Als laatste was dan de uitdaging om de bovenste knop te disabelen als het liedje al helemaal bovenaan staat. 
+Als laatste was dan de uitdaging om de bovenste/onderste knop te disabelen als het liedje al helemaal bovenaan/onderaan staat. 
+Als de richting van het liedje gelijk staat aan "op", (dus een click op de bovenste pijl button) moet hij het vorige liedje erbij pakken. Als het vorige liedje er niet is, dan komt er dus niks. Als het vorige liedje wel bestaat, dan moet hij het vorige liedje voor het huidige liedje plakken. Dit hebben we gemaakt door insertBefore te gebruiken. 
+
+![Playlist versie 05](img/versie05Playlist.png "versie 5 vormgeving")
+
+Als laatste heb ik nog mijn pijltjes veranderd want die waren niet te zien. Het zijn nu gewoon buttons met een pijltje erin.
+
+## Final result
+
+![Playlist versie 06](img/versie06Playlist.png "versie 6 vormgeving")
+![Playlist versie 06](img/versie06pt2Playlist.png "versie 6pt2 vormgeving")
+
+Drag en drop/volgorde klikken screenshotten was wat lastig, maar ik heb hier iniedergeval twee screenshots met een andere volgorde om te laten zien hoe het zou werken. 
