@@ -26,5 +26,9 @@ Nu was ik echt klaar om te beginnen met de css. Ik heb een font-family toegevoeg
 
 ![Playlist versie 03](img/versie03Playlist.png "versie 1 vormgeving")
 
+Ik vond de pijltjes die ik had gemaakt in de css wel leuk, maar wilde eigenlijk gebruik maken van html symbols. Dit had ik nog niet eerder gedaan, dus de website van https://www.toptal.com/designers/htmlarrows/ was heel handig en gemakkelijk te gebruiken. 
 
+![Playlist versie 04](img/versie04Playlist.png "versie 2 vormgeving")
+
+## stap 4: Interactie met Javascript
 
