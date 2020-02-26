@@ -1,16 +1,70 @@
-html{
-  box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
-  background:#eee;
-  background: url("../img/flagF4D.png") center no-repeat;
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* https://css-tricks.com/box-sizing/ */
+
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-body{
-  max-width: 30em;
-  margin: 1em auto;
-  padding: 1em;
-  background: #fff;
-  border-radius: 1em;
-  box-shadow: 0.5em 0.5em 0.5em rgba(68,68,68,0.6);
+
+ /* achtergrond kleur */
+body {
+    background-color: #121212;
+}
+
+ /* Styling van de header. De tekst staat centraal en heeft een witte kleur */
+h1 {
+
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+ /* Hoe de playlist items worden weergegeven, ondere elkaar in dit geval. Grid template met behulp van Sanne */
+ul {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Hoe de playlist items worden weergegeven, ondere elkaar in dit geval. Grid template met behulp van Sanne */
+.songcard {
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 6px 6px -2px #000000;
+}
+
+/* Waar de buttons staan in het playlist item */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Styling van de tekst in de playlist items */
+.tekst {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 8em;
+}
+
+/* plaatsing van de playlist items*/
+li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+
+/* Plaatjes in de playlist items */
+img {
+    margin: 2em;
+    height: 150px;
+    width: 150px;
 }
