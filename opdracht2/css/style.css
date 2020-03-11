@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 59%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+ 
+}
+
+img {
+ 
+   border: 2px solid black;
+   width: 960px;
+   height: 540px;
+   margin: 0 10px;
+}
