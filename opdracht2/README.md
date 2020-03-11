@@ -1,6 +1,6 @@
 # Frontend voor Designers - opdracht 2: Een interactie uitwerken voor verschillende gebruikers input
 
-Carousel met vakantiefoto's: Een carousel met meerdere foto's van een vakantie, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
+Ik heb gekozen voor een carousel met vakantiefoto's: Een carousel met meerdere foto's van een vakantie, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
 
 ## Stap 1: Schetsen van de interactie
 
