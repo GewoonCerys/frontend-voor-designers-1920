@@ -8,17 +8,17 @@ Eerst ben ik begonnen met een schets te maken van hoe ik dit voor me zou zien in
 
 ![Interacties schets](img/interactieschets.jpg "Interactie schets")
 
-Zoals te zien is op de schets had ik ook al ideeen voor een dropdown menu waar meerdere opties tevoorschijn zouden komen. Aangezien de opdracht "volgorde van nummers veranderen" is, heb ik dit in de daadwerkelijke versie weggelaten.
+Ik wilde ook een click en drag om door de foto's te navigeren. Eerst maar eens kijken of het lukt met knopjes/pijltjes toetsen.
 
 ## stap 2: Opstellen van de html
 
-Ik vond het wel weer wennen om html te gebruiken en had even de tijd nodig om de verschillende elementen te gebruiken. Door naar oude projecten te kijken verfriste ik mijn geheugen en kon ik een begin maken. Met behulp van Sanne heb ik een grid toegepast waardoor de playlist items onder elkaar verschijnen. Ik heb Ariana Grande even als placeholder gebruikt om mee te beginnen.
+Ik vond het best wel lastig om te bedenken hoe ik de elementen zou plaatsen binnen de html. Met klasgenoten zijn we erachter gekomen dat we het beste een ul konden aan maken als een soort "container", met daarin de li's, wat de foto's zouden worden.
 
-![Playlist versie 01](img/versie01Playlist.png "Basis html")
+![carousel versie 01](img/stap01.jpg "Basis html")
 
-De basis van de html had ik hier wel rond. Ik heb wat classes toegevoegd/verwijderd toen ik begon met stijlen. Ik had in css met behulp van de website https://css-tricks.com/the-shapes-of-css/ pijlen gemaakt die ik kon gebruiken om de muzieknummers naar boven en/of naar beneden te verplaatsen.
+De afbeeldingen gaan wel al netjes naast elkaar, maar verlaten de viewport waardoor je een horizontale scroll krijgt. Dat is niet helemaal de bedoeling, maar met een beetje googelen vond ik "overflow-x: auto", waardoor er nu als het ware in de ul wordt gescrolt, en niet in de body.
 
-![Playlist versie 02](img/versie02Playlist.png "pijlen css")
+![carousel versie 02](img/stap02.jpg "scrollen in de ul")
 
 ## stap 3: Vormgeven met css
 
