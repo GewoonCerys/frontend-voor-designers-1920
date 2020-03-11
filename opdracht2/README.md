@@ -20,9 +20,12 @@ De afbeeldingen gaan wel al netjes naast elkaar, maar verlaten de viewport waard
 
 ![carousel versie 02](img/stap02.jpg "scrollen in de ul")
 
+Ik vond het toch niet mooi, zo links in de hoek een foto'tje. Dus ben ik terug gegaan naar mijn schets en heb ik de carousel over de gehele breedte van het scherm. Ook zijn er nu knopjes waarmee er binnenkort genavigeert kan worden.
+
+![carousel versie 03](img/stap03.jpg "versie 3 vormgeving")
+
 ## stap 3: Vormgeven met css
 
-Nu was ik echt klaar om te beginnen met de css. Ik heb een font-family toegevoegd, heb de kleuren gebruikt die Spotify ook gebruikt en er zijn nu verschillende liedjes te zien in plaats van alleen Ariana Grande. De grote rode pijltjes heb ik kleiner gemaakt, in het playlist item gezet en van kleur veranderd. 
 
 ![Playlist versie 03](img/versie03Playlist.png "versie 3 vormgeving")
 

@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
+    background-image: url("../img/wallpaper01.jpg");
+    background-size: cover;
 }
 
 h1 {
@@ -11,14 +13,16 @@ h1 {
 
 ul {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
-    width: 59%;
+    width: auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-li {
- 
+button {
+    display: flex;
+    margin: auto;
 }
 
 img {
