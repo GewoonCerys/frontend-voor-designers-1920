@@ -24,5 +24,18 @@ Ik vond het toch niet mooi, zo links in de hoek een foto'tje. Dus ben ik terug g
 
 ![carousel versie 03](img/stap03.jpg "versie 3 vormgeving")
 
+Ik vond het erg lastig om verder te gaan, omdat ik niet wist waar ik moest beginnen, welke elementen op elkaar moesten gaan reageren en hoe ik dat op de beste manier kon toepassen. Ik heb een youtube tutorial erbij gehaald die opzich al had wat ik had, de ul als een container met daarin li's als de images. Wat ik niet had was daarom heen weer een div die de boel bij elkaar houdt, dus die heb ik toegevoegd. Ook heb ik hier een nieuw stukje code ondekt, de "--", wat een class afzonderlijk kan modifyen. Ik had het nog niet eerder gezien of gebruikt.
+
+
+
 ## stap 3: Vormgeven met css
+
+ Met deze tutorial heb ik de balletjes onderaan de foto's kunnen maken als indicators. Ook heb ik hier geleerd dat je een class kunt modifyen in css (ik heb bijvoorbeeld .slideshowindicator, een punt er tussen, en dan actieveslide) om alleen die specifieke slideshowindicator in mijn geval aan te passen. In dit geval een kleurtje geven aan de actieve slide indicator.
+
+![carousel versie 04](img/stap04.jpg "versie 3 vormgeving")
+
+Met de tutorial heb ik nu een basis gezet om verder te gaan met javascript. Ik had dus eerst een scrollend element dus wat dat betreft ben ik wel wat stapjes achteruit. Maar ik wist oprecht niet hoe ik verder moest, dus probeer ik het zo op te lossen.
+
+## stap 4: Javascript
+
 
