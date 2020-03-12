@@ -32,7 +32,7 @@ Ik vond het erg lastig om verder te gaan, omdat ik niet wist waar ik moest begin
 
  Met deze tutorial heb ik de balletjes onderaan de foto's kunnen maken als indicators. Ook heb ik hier geleerd dat je een class kunt modifyen in css (ik heb bijvoorbeeld .slideshowindicator, een punt er tussen, en dan actieveslide) om alleen die specifieke slideshowindicator in mijn geval aan te passen. In dit geval een kleurtje geven aan de actieve slide indicator.
 
-![carousel versie 04](img/stap04.jpg "versie 3 vormgeving")
+![carousel versie 04](img/stap04.jpg "versie 4 vormgeving")
 
 Met de tutorial heb ik nu een basis gezet om verder te gaan met javascript. Ik had dus eerst een scrollend element dus wat dat betreft ben ik wel wat stapjes achteruit. Maar ik wist oprecht niet hoe ik verder moest, dus probeer ik het zo op te lossen.
 
