@@ -26,6 +26,7 @@ img {
 .slideshowcontainer {
     height: 100%;
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -33,6 +34,9 @@ img {
     padding: 0;
     margin: 0;
     list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
 }
 
 .slide {
@@ -71,6 +75,7 @@ img {
     height: 15px;
     background: grey;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .slideshowindicator.actieveslide {

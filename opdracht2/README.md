@@ -38,4 +38,11 @@ Met de tutorial heb ik nu een basis gezet om verder te gaan met javascript. Ik h
 
 ## stap 4: Javascript
 
+Ook dit heb ik volledig met de tutorial gevolgt. De tutorial die ik heb gebruikt is: https://www.youtube.com/watch?v=gBzsE0oieio&t=315s.
+
+Het was best oke te volgen, al moest ik soms wel dingen opzoeken. Ik wist bijvoorbeeld niet wat => en e betekende.
+
+Door de tutorial te volgen werken mijn heen en terug knoppen nu en kan ik dus door de slideshow heen klikken. Ook de navigatiebolletjes werken. Het jammere hieraan is dat ik de kleurswitch van de balletjes (zodat je weet dat je op de huidige slide zit) nog niet werkend heb kunnen krijgen.
+
+![carousel versie 05](img/stap05.jpg "versie 5 vormgeving")
 
