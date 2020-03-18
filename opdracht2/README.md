@@ -44,5 +44,5 @@ Het was best oke te volgen, al moest ik soms wel dingen opzoeken. Ik wist bijvoo
 
 Door de tutorial te volgen werken mijn heen en terug knoppen nu en kan ik dus door de slideshow heen klikken. Ook de navigatiebolletjes werken. Het jammere hieraan is dat ik de kleurswitch van de balletjes (zodat je weet dat je op de huidige slide zit) nog niet werkend heb kunnen krijgen.
 
-![carousel versie 05](img/stap05.jpg "versie 5 vormgeving")
+![carousel versie 05](img/stap06.jpg "versie 6 vormgeving")
 
