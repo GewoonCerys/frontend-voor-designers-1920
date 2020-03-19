@@ -1,32 +1,40 @@
 # frontend voor designers - opdracht 3: Een interactie uitwerken met externe data
 
-Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data is JSON die met een [REST API](https://developer.mozilla.org/en-US/docs/Glossary/REST) van een externe bron wordt ingeladen met Javascript.  Als de data geladen is moeten gebruikers je ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
+Samen met May heb ik een API van Ghibli films uitgekozen. Die vond ik wat leuker dan de films die ik via de slides had. Mijn idee is om een tijdlijn te maken van de Ghibli films op jaartal waarop ze zijn uitgekomen. Wanneer je op een film klikt krijg je info over wanneer de film is uitgekomen, wie de director is en dart soort dingen.
+
+## Stap 1: Schetsen van de interactie
+
+Eerst ben ik begonnen met een schets te maken van hoe ik dit voor me zou zien in een browser.
+
+![Interacties schets](img/stap01.jpg "Interactie schets")
 
 
-## Werkwijze
-Schets eerst hoe de functionaliteit er uit komt te zien. Maak daarna een breakdown-schets hoe de verschillende componenten technisch moeten gaan werken...
+## stap 2: Opstellen van de html
 
-Werk daarna je ontwerp uit in HTML, CSS en JavaScript.
+Het opstellen van de html ging vrij gemakkelijk met de tutorial, het was namelijk gewoon knippen plakken.
 
+![carousel versie 01](img/stap02.jpg "namen verticaal")
 
-## Planning
-1. Les 5: Briefing opdracht 3, API uitzoeken, tutorial doorlopen, schetsen en beginnen met coderen
-2. Les 6: Eerste versie testen. Meenemen: breakdown-schets, JSON laden in de console, daarna in Javascript HTML elementen aanmaken, de data koppelen en toevoegen aan de DOM
-3. Les 7: Demo presenteren
-4. Les 8: Oplevering en beoordeling
+De namen van de films staan er verticaal, maar die wil ik horizontaal.
 
 
-## Criteria
-1. De uitwerking van je ontwerp moet het doen in een browser en device naar keuze.
-2. De data wordt van een externe bron ingeladen met Javascript.
-3. Een aantal states van de [UI stack](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/) worden opgevangen en zijn vormgegeven.
-4. In de demo maak je gebruik van meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) zodat gebruikers je ontwerp op verschillende manieren kunnen bedienen.
-5. In de demo dien je rekening te houden met de interface design principles 04, 08, 09 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/).
-6. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github
 
 
-## Resources
-- Gebruik verschillende [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) om de functionaliteit mee te bedienen.
-- Met behulp van [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) of [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) kan een [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) file worden geladen. Daarna kun je de HTML elementen aanmaken, de juiste content koppelen en aan de DOM toevoegen.
-- Hier staat een [tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) voor het laden van JSON data en het aanmaken van HTMl elementen.
-- Bij het laden van externe data kan de server verschillende [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) doorgeven, die kun je gebruiken om feedback te tonen.
+
+## stap 3: Vormgeven met css
+
+ Met deze tutorial heb ik de balletjes onderaan de foto's kunnen maken als indicators. Ook heb ik hier geleerd dat je een class kunt modifyen in css (ik heb bijvoorbeeld .slideshowindicator, een punt er tussen, en dan actieveslide) om alleen die specifieke slideshowindicator in mijn geval aan te passen. In dit geval een kleurtje geven aan de actieve slide indicator.
+
+![carousel versie 04](img/stap04.jpg "versie 4 vormgeving")
+
+Met de tutorial heb ik nu een basis gezet om verder te gaan met javascript. Ik had dus eerst een scrollend element dus wat dat betreft ben ik wel wat stapjes achteruit. Maar ik wist oprecht niet hoe ik verder moest, dus probeer ik het zo op te lossen.
+
+## stap 4: Javascript
+
+Ook dit heb ik volledig met de tutorial gevolgt. De tutorial die ik heb gebruikt is: https://www.youtube.com/watch?v=gBzsE0oieio&t=315s.
+
+Het was best oke te volgen, al moest ik soms wel dingen opzoeken. Ik wist bijvoorbeeld niet wat => en e betekende.
+
+Door de tutorial te volgen werken mijn heen en terug knoppen nu en kan ik dus door de slideshow heen klikken. Ook de navigatiebolletjes werken. Het jammere hieraan is dat ik de kleurswitch van de balletjes (zodat je weet dat je op de huidige slide zit) nog niet werkend heb kunnen krijgen.
+
+![carousel versie 05](img/stap06.jpg "versie 6 vormgeving")
