@@ -1,3 +1,12 @@
+# Vragen
+
+- Ik snap even helemaal niet zo goed hoe ik deze api kan bewerken. Ik wil bijvoorbeeld de titels horizontaal inplaats van verticaal. Hoe doe ik dit? Want in de html staat niet als een h1 oid wat ik kan oproepen in de css.
+
+- Ik wil er bijvoorbeeld ook een tijdlijn van maken, maar hoe kan ik zo'n soort graphic toevoegen zodat hij onder de juiste namen blijft?
+
+
+
+
 # frontend voor designers - opdracht 3: Een interactie uitwerken met externe data
 
 Samen met May heb ik een API van Ghibli films uitgekozen. Die vond ik wat leuker dan de films die ik via de slides had. Mijn idee is om een tijdlijn te maken van de Ghibli films op jaartal waarop ze zijn uitgekomen. Wanneer je op een film klikt krijg je info over wanneer de film is uitgekomen, wie de director is en dart soort dingen.
