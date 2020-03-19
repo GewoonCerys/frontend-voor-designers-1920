@@ -12,8 +12,10 @@ request.send();
 
 request.onload = function() {
   const movies = request.response;
+  const description = request.response;
     showmovietitle(movies);
-    console.log(movies);
+    showmovieDescription(description);
+    console.log(description);
 }
 
 function showmovietitle(jsonObj) {
@@ -23,9 +25,19 @@ function showmovietitle(jsonObj) {
     
     const title = document.createElement('p');
     title.textContent = jsonObj[i]['title'];
-    const poster = document.createElement('img');
-    poster.src = jsonObj[i]['cover'];
     header.appendChild(title);
-    header.appendChild(poster);
     }
 }
+
+function showmovieDescription(jsonObj) {
+    
+    var i;
+    for (i = 0; i < 20; i++) {
+    
+    const description = document.createElement('p');
+    description.textContent = jsonObj[i]['description'];
+    header.appendChild(description);
+    }
+}
+
+showmovietitle.addEventListener('click');
