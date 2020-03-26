@@ -45,3 +45,4 @@ Ik had gekeken bij Sebastiaans codepen. Hij heeft een click op de gehele article
 Ik vind het erg lastig omdat ik niet gewend ben om te werken met data die je ergens ophaalt. Ik ben gewend dat er in de html elementen staan die ik vervolgens aanpas. Nu alles in de javascript gebeurd vind ik het erg verwarrend en weet ik niet waar ik moet beginnen.
 
 ![tijdlijn versie 04](img/stap05.jpg "clickable dates")
+![tijdlijn versie 05](img/stap06.jpg "clickable dates")
