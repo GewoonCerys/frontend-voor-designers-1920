@@ -1,3 +1,7 @@
+# Linkje 
+
+https://gewooncerys.github.io/frontend-voor-designers-1920/opdracht3/
+
 # Vragen
 
 Hi Sanne! Thanks voor je codepens. Ik ben eruit gekomen met de javascript codepen. Niet ideaal zoals je zelf zegt met display:none, maar op de manier van de link die je mee stuurde werkt het niet. Dan blijft de datum ingeklapt maar krijg ik hem niet uitgeklapt. Ik wilde je eerder mailen, maar toen kregen andere opdrachten voorrang en nu is het opeens vrijdag. Er zitten te weinig dagen in 1 week. ;) 
@@ -6,7 +10,11 @@ Er gebeuren nu drie dingen in de code die niet moeten gebeuren en/of uberhaupt n
 
 1. De achtergrond verspringt als ik op een jaartal klik. Ik weet wel waarom, maar ik wil het niet. De achtergrond moet gewoon vast staan anders is het zo lelijk haha. Maar ik weet niet hoe ik dat kan aanpassen. De achtergrond staat nu op "cover", wat daar denk ik voor zorgt. Maar als ik Contain doe werkt het ook niet lekker. Hoe kan ik dit aanpakken?
 
+Toen dacht ik oke! Ik ga dit laten liggen en verder met het volgende. Maarja, toen liep ik daar ook weer tegen dingen aan:
+
 2. Het animeren van de click lukt niet. Ik was er al een tijdje mee bezig en toen zag ik jouw codepen van iets laten bewegen. Dat is wat ik wilde! Dus die heb ik nagedaan (ik zag het ook al voorbij komen via css-tricks, net anders maar zelfde principe) maar hij animeert bij mij niet. Ik dacht misschien omdat articles niet kunnen animeren? Dat probeerde ik op te zoeken maar kon niet het antwoord vinden. Hoe kan ik dit aanpakken?
+
+Toen dacht ik opnieuw oke! Ik ga dit laten liggen en verder met het volgende. Maarja, toen liep ik daar ook weer tegen dingen aan:
 
 3. Ik heb de sortable plugin op het moment zodat iemand zijn films in een watchlist kan stoppen. De lijst is er wel, maar is onzichtbaar? Ik heb het samen met Gerben gedaan en bij hem werkt het wel en bij mij niet. We komen er niet uit samen. Hij is onzichtbaar, maar als ik de jaartallen uit klap (en dus de hidden articles tevoorschijn haal) is hij nog steeds onzichtbaar. Ik kan er wel dingen in slepen. Hoe kan ik dit aanpakken?
 
