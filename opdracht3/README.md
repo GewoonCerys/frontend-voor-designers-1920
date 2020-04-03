@@ -1,9 +1,14 @@
 # Vragen
 
-Ik heb niet veel voortgang, vind dit echt lastig. Ik heb bij anderen hun codepens gekeken (Sebastiaan, Michelino) maar ben niet veel wijzer geworden. Ik snap nu wel hoe ik elementen in css kan stylen, dus bedankt voor de codepen met uitleg! (Ik heb het voor nu even gekopieerd als je dat niet erg vind)
-Mijn vraag:
+Hi Sanne! Thanks voor je codepens. Ik ben eruit gekomen met de javascript codepen. Niet ideaal zoals je zelf zegt met display:none, maar op de manier van de link die je mee stuurde werkt het niet. Dan blijft de datum ingeklapt maar krijg ik hem niet uitgeklapt. Ik wilde je eerder mailen, maar toen kregen andere opdrachten voorrang en nu is het opeens vrijdag. Er zitten te weinig dagen in 1 week. ;) 
 
-Op het moment klik je op een jaartal en krijg je een pop up te zien. Wat ik wil is dat je klikt op een jaartal en dat dan de description van bijbehorend jaartal uit klapt/tevoorschijn komt. Als je opnieuw klikt, klapt deze weer dicht en/of verdwijnt deze weer. Qua CSS heb ik nog niets "mooi gemaakt" omdat ik eerst wil dat de javascript werkt. Wat moet ik doen? Hoe schrijf ik deze functie? Ik probeerde Sebastiaan na te doen maar dat werd juist erg verwarrend. De eventlistener zit volgens mij nu wel op de juiste plek want de alert werkt wel. Maar dit gebeurd als je op ieder jaartal drukt en ik wil eigenlijk dat het per jaartal de description van dat bijbehorende jaartal laat zien.
+Er gebeuren nu drie dingen in de code die niet moeten gebeuren en/of uberhaupt niet gebeuren. 
+
+1. De achtergrond verspringt als ik op een jaartal klik. Ik weet wel waarom, maar ik wil het niet. De achtergrond moet gewoon vast staan anders is het zo lelijk haha. Maar ik weet niet hoe ik dat kan aanpassen. De achtergrond staat nu op "cover", wat daar denk ik voor zorgt. Maar als ik Contain doe werkt het ook niet lekker. Hoe kan ik dit aanpakken?
+
+2. Het animeren van de click lukt niet. Ik was er al een tijdje mee bezig en toen zag ik jouw codepen van iets laten bewegen. Dat is wat ik wilde! Dus die heb ik nagedaan (ik zag het ook al voorbij komen via css-tricks, net anders maar zelfde principe) maar hij animeert bij mij niet. Ik dacht misschien omdat articles niet kunnen animeren? Dat probeerde ik op te zoeken maar kon niet het antwoord vinden. Hoe kan ik dit aanpakken?
+
+3. Ik heb de sortable plugin op het moment zodat iemand zijn films in een watchlist kan stoppen. De lijst is er wel, maar is onzichtbaar? Ik heb het samen met Gerben gedaan en bij hem werkt het wel en bij mij niet. We komen er niet uit samen. Hij is onzichtbaar, maar als ik de jaartallen uit klap (en dus de hidden articles tevoorschijn haal) is hij nog steeds onzichtbaar. Ik kan er wel dingen in slepen. Hoe kan ik dit aanpakken?
 
 
 # frontend voor designers - opdracht 3: Een interactie uitwerken met externe data
@@ -46,3 +51,16 @@ Ik vind het erg lastig omdat ik niet gewend ben om te werken met data die je erg
 
 ![tijdlijn versie 04](img/stap05.jpg "clickable dates")
 ![tijdlijn versie 05](img/stap06.jpg "clickable dates")
+
+ Ik kwam erachter dat ik eigenlijk al best ver was met de oplossing voor het verstoppen van de articles. Nouja, ik dacht op de juiste manier. De uitwerking was minder. Ik heb op het moment de click met display none. Inderdaad niet prettig/handig voor screenreaders, maar via de link die je stuurde kreeg ik het niet aan de praat. Toen werd hij ingeklapt, maar niet meer uitgeklapt.
+
+![tijdlijn versie 06](img/stap07.jpg "clickable dates versie 2")
+
+Ik heb nu eindelijk ook een achtergrond toegevoegd. Maakt al een verschil. Wat nu wel gebeurd is dat als je op een datum klikt, de achtergrond verspringt. Ik weet wel hoe dat komt, maar weet niet hoe ik het kan oplossen..
+
+![tijdlijn versie 06.1](img/stap08.jpg "clickable dates versie 3")
+
+Ik ben nu aan de slag gegaan met sortable, omdat het animeren van een bepaald element (de article wanneer er geklikt wordt) nu even niet lukt. De plugin werkt zoals ik hem wil, alleen blijft de styling onzichtbaar. Kom er even niet uit waarom dat is? Het hoort niet in iedergeval. Als ik op een jaartal klik dan blijft hij alsnog verborgen, dus daar ligt het niet aan. Ik kan er wel dingen inslepen.
+
+![tijdlijn versie 07](img/stap09.jpg "sortable")
+
