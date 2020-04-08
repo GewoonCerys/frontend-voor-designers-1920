@@ -55,7 +55,7 @@ main article.show {
     transform: rotateY(360deg);
 
 }
-
+/* titel van de films */
 main article h2 {
     font-size: 2.5rem;
     margin: 0;
