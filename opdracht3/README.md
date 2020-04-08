@@ -2,22 +2,6 @@
 
 https://gewooncerys.github.io/frontend-voor-designers-1920/opdracht3/
 
-# Vragen
-
-Hi Sanne! Thanks voor je codepens. Ik ben eruit gekomen met de javascript codepen. Niet ideaal zoals je zelf zegt met display:none, maar op de manier van de link die je mee stuurde werkt het niet. Dan blijft de datum ingeklapt maar krijg ik hem niet uitgeklapt. Ik wilde je eerder mailen, maar toen kregen andere opdrachten voorrang en nu is het opeens vrijdag. Er zitten te weinig dagen in 1 week. ;) 
-
-Er gebeuren nu drie dingen in de code die niet moeten gebeuren en/of uberhaupt niet gebeuren. 
-
-1. De achtergrond verspringt als ik op een jaartal klik. Ik weet wel waarom, maar ik wil het niet. De achtergrond moet gewoon vast staan anders is het zo lelijk haha. Maar ik weet niet hoe ik dat kan aanpassen. De achtergrond staat nu op "cover", wat daar denk ik voor zorgt. Maar als ik Contain doe werkt het ook niet lekker. Hoe kan ik dit aanpakken?
-
-Toen dacht ik oke! Ik ga dit laten liggen en verder met het volgende. Maarja, toen liep ik daar ook weer tegen dingen aan:
-
-2. Het animeren van de click lukt niet. Ik was er al een tijdje mee bezig en toen zag ik jouw codepen van iets laten bewegen. Dat is wat ik wilde! Dus die heb ik nagedaan (ik zag het ook al voorbij komen via css-tricks, net anders maar zelfde principe) maar hij animeert bij mij niet. Ik dacht misschien omdat articles niet kunnen animeren? Dat probeerde ik op te zoeken maar kon niet het antwoord vinden. Hoe kan ik dit aanpakken?
-
-Toen dacht ik opnieuw oke! Ik ga dit laten liggen en verder met het volgende. Maarja, toen liep ik daar ook weer tegen dingen aan:
-
-3. Ik heb de sortable plugin op het moment zodat iemand zijn films in een watchlist kan stoppen. De lijst is er wel, maar is onzichtbaar? Ik heb het samen met Gerben gedaan en bij hem werkt het wel en bij mij niet. We komen er niet uit samen. Hij is onzichtbaar, maar als ik de jaartallen uit klap (en dus de hidden articles tevoorschijn haal) is hij nog steeds onzichtbaar. Ik kan er wel dingen in slepen. Hoe kan ik dit aanpakken?
-
 
 # frontend voor designers - opdracht 3: Een interactie uitwerken met externe data
 
@@ -42,14 +26,9 @@ Ook heb ik nog staan dat ik images wil oproepen, maar die zitten niet in deze ap
 ![tijdlijn versie 02](img/stap03.jpg "description verticaal")
 
 Om te kijken of ik nog wist wat er gebeurde heb ik de namen weggehaald en er descriptions van gemaakt. Dit werkt, dus nu wil ik een eventlistener aanmaken waardoor als je op een titel klikt je de bijbehorende description krijgt. Maar ik weet even niet zo goed waar ik dan mee moet gaan beginnen.
-
-
-
-## stap 3: Vormgeven met css
-Hier ga ik me iets later op focussen. Ik wil voor nu dat de javascript enigszins werkt.
  
 
-## stap 4: Javascript
+## stap 3: Javascript
 ![tijdlijn versie 03](img/stap04.jpg "article blocks")
 Door de hulp van Sanne ben ik iets verder gekomen omdat ik nu weet hoe ik kan stylen in css. Wat ik nu wil gaan proberen is dat de jaartallen klikbaar worden. Wanneer een gebruiker hierop klikt, wil ik dat de blauwe blokken pas tevoorschijn komen. Ik heb nu wel een event listener die je een pop up geeft, maar dat is niet wat ik wil. Hierdoor weet ik in principe dat de click werkt, alleen moet de functie dus anders worden.
 
@@ -64,11 +43,21 @@ Ik vind het erg lastig omdat ik niet gewend ben om te werken met data die je erg
 
 ![tijdlijn versie 06](img/stap07.jpg "clickable dates versie 2")
 
-Ik heb nu eindelijk ook een achtergrond toegevoegd. Maakt al een verschil. Wat nu wel gebeurd is dat als je op een datum klikt, de achtergrond verspringt. Ik weet wel hoe dat komt, maar weet niet hoe ik het kan oplossen..
+Ik heb nu eindelijk ook een achtergrond toegevoegd. Maakt al een verschil. Wat nu wel gebeurd is dat als je op een datum klikt, de achtergrond verspringt. Ik weet wel hoe dat komt, maar weet niet hoe ik het kan oplossen. *Edit = opgelost met background-attachement.
 
 ![tijdlijn versie 06.1](img/stap08.jpg "clickable dates versie 3")
 
-Ik ben nu aan de slag gegaan met sortable, omdat het animeren van een bepaald element (de article wanneer er geklikt wordt) nu even niet lukt. De plugin werkt zoals ik hem wil, alleen blijft de styling onzichtbaar. Kom er even niet uit waarom dat is? Het hoort niet in iedergeval. Als ik op een jaartal klik dan blijft hij alsnog verborgen, dus daar ligt het niet aan. Ik kan er wel dingen inslepen.
+Ik ben nu aan de slag gegaan met sortable, omdat het animeren van een bepaald element (de article wanneer er geklikt wordt) nu even niet lukt. De plugin werkt zoals ik hem wil, alleen blijft de styling onzichtbaar. Kom er even niet uit waarom dat is? Het hoort niet in iedergeval. Als ik op een jaartal klik dan blijft hij alsnog verborgen, dus daar ligt het niet aan. Ik kan er wel dingen inslepen. *Edit, lag aan dat ik alle articles aanriep in de css. Door er main voor te zetten spreek ik alleen het article in de main aan.
 
 ![tijdlijn versie 07](img/stap09.jpg "sortable")
+
+
+## stap 4: Vormgeven met css
+Omdat ik moeite had met de javascript ben ik wat later begonnen aan de css. Ondertussen heb ik zoals hierboven benoemd wel al een achtergrond toegevoegd en heb ik een hoverstate aan de knopjes toegevoegd. Als je nu op een knopje drukt schuift een blok uit met informatie over de film die in dat jaar uit kwam.
+
+Mijn API heeft van zichzelf geen foto's en dat vond ik jammer. Daarom heb ik zelf foto's toegevoegd en in een array gestopt, waar de gebruiker door heen kan klikken. *Geupdate! Je kunt nu met de links en rechts pijltjes toetsen door de plaatjes heen. Dit duurde best wel lang voor ik begreep wat er gebeurde en hoe het werkte, dus ik ben super blij dat ik hieruit ben gekomen.
+
+![tijdlijn versie 08](img/stap11.jpg "image below")
+
+Nu wil ik eigenlijk dat de achtergrond wijzigd als je de pijltjes toetsen gebruikt, maar daar ben ik nog niet uit hoe ik dat kan doen. Voor nu is het dus de images maar dat vind ik ook niet erg. 
 

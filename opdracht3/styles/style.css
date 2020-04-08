@@ -1,102 +1,122 @@
 * {
-	box-sizing: border-box;	
+    box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
-   
-}
 
-html {
-	
 }
 
 body {
-  margin: 0 auto;
- background-image: url(../img/ghibli-wallpapers-desktop-For-Free-Wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+    margin: 0 auto;
+    background-image: url(../img/ghibli-wallpapers-desktop-For-Free-Wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment */
 }
 
 /* de kop */
 h1 {
-	font-size: 4rem;
- 	text-align: center;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* de losse tekst op de site */
+p {
+    display: grid;
+    justify-content: center;
+}
+
+/* Alles wat in de main staat. Dat zijn in dit geval de jaartallen en de description */
+main {
+    display: grid;
+    grid-gap: 2em;
+    justify-content: center;
 }
 
 /* de films */
-main {
-	display:grid;
-	grid-gap:2em;
-	justify-content:center;
-}
-
-
-/* Ik had het geprobeerd op de manier via de link die je meestuurde (beter voor screenreaders), maar toen klapte hij niet meer uit. Ik dacht dat ik dan de styling die ik bij de article had kon plakken bij de styling van .show, maar dat werkte ook niet. Kom er helaas niet uit, dus dan maar zo :( */
-article {
+main article {
     border-radius: 10px;
     border: none;
-	width:24em;
-	padding:2em;
-	background:#00BDEA;
-	display:none;
-	grid-template-columns:min-content 1fr;
-	grid-gap:2em;  
-    /* Dit probeerde ik ook op te zoeken, maar het werkt bij mij niet. Dit is ook zoals jouw codpen "iets laten bewegen". Of kun je een article niet animeren?
-    transition:1s; */ 
+    width: 24em;
+    padding: 2em;
+    background: #BFC1D3;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 2em;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 2em;
+    transition: 0.5s;
 }
 
-article.show {
-	display:grid;
-    transform:translateX(35%);
+/* Wanneer er op de jaartallen geklikt wordt, gebeurd dit */
+main article.show {
+    max-height: 34em;
+    width: 40em;
+    padding: 2em;
+    transform: rotateY(360deg);
+
 }
 
-article h2 {
-  font-size: 2.5rem;
-	margin:0;
-	writing-mode:vertical-lr;    
+main article h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    writing-mode: vertical-lr;
+    white-space: nowrap;
 }
 
-
-/* Dit stuk samen gedaan met Gerben. Alleen in mijn website blijft de list onzichtbaar? Weet niet waarom, hij is nergens hidden. Als ik op de jaartijden klik komt hij ook niet tevoorschijn, dus ik weet niet waar het dan aan ligt. */
+/* de watchlist */
 .watchlist {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    width: 100%;
-    min-height: 1em;
+    background-color: #E4DED9;
+    opacity: 0.6;
+    border: dashed black;
+    width: auto;
+    min-height: 10em;
     margin: 0 auto;
     padding: .5em;
 }
 
+/* wat er met de watchlist gebeurd voordat iemand er iets in heeft gesleept */
 .watchlist::before {
-    content: "Drag your movies here to add them to your personal watch list";
+    content: "Haven't seen them all and are you in quarantaine? Now is the perfect time to start. Drag the movies here to create your own Ghibli marathon list!";
     width: 100%;
     left: 0;
     top: 2.5%;
-    font-size: .5em;
     text-align: center;
     transition: .25s;
 }
 
 .watchlist:empty::before {
     top: calc(50% - .65em);
-    font-size: 1.3em;
+
 }
 
+/* de jaartallen knopjes */
 button {
     display: grid;
     margin-bottom: 1em;
     justify-content: center;
-    width: 5em; 
+    width: 5em;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-   transition:.2s ease-in-out; 
+    transition: .2s ease-in-out;
 }
 
 button:hover {
     border-radius: 10px;
-    background-color: #00BDEA;
+    background-color: #BFC1D3;
     border: none;
     cursor: pointer;
     transform: scale(1.1);
+}
+
+/* de plaatjes onderaan de site voor een sfeer impressie van de films */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 720px;
+
 }
